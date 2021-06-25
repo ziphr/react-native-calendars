@@ -1,5 +1,5 @@
 //@ts-nocheck
-import * as XDate from 'xdate'
+import XDate from 'xdate';
 function padNumber(n: any) {
   if (n < 10) {
     return `0${n}`;
